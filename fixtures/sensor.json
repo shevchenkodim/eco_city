@@ -1,0 +1,42 @@
+[
+  {
+    "model": "common.Sensor",
+    "pk": 1,
+    "fields": {
+      "sensor_id": "1",
+      "sensor_type_id": 1
+    }
+  },
+  {
+    "model": "common.Sensor",
+    "pk": 2,
+    "fields": {
+      "sensor_id": "2",
+      "sensor_type_id": 1
+    }
+  },
+  {
+    "model": "common.Sensor",
+    "pk": 3,
+    "fields": {
+      "sensor_id": "3",
+      "sensor_type_id": 1
+    }
+  },
+  {
+    "model": "common.Sensor",
+    "pk": 4,
+    "fields": {
+      "sensor_id": "4",
+      "sensor_type_id": 1
+    }
+  },
+  {
+    "model": "common.Sensor",
+    "pk": 5,
+    "fields": {
+      "sensor_id": "5",
+      "sensor_type_id": 1
+    }
+  }
+]
