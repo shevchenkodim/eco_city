@@ -1,0 +1,206 @@
+[
+  {
+    "model": "common.Indicator",
+    "pk": 1,
+    "fields": {
+      "code": "CAQI",
+      "name": "Common air quality index",
+      "indicator_type": "Quality",
+      "type_desc": "Common air quality index",
+      "unit": "",
+      "description": "Common air quality index"
+    }
+  },
+  {
+    "model": "common.Indicator",
+    "pk": 2,
+    "fields": {
+      "code": "PM01",
+      "name": "PM1",
+      "indicator_type": "air_quality_pm1",
+      "type_desc": "PM1",
+      "unit": "мкг/м3",
+      "description": "Зважені тверді частки PM1"
+    }
+  },
+  {
+    "model": "common.Indicator",
+    "pk": 3,
+    "fields": {
+      "code": "PM25",
+      "name": "PM25",
+      "indicator_type": "air_quality_pm25",
+      "type_desc": "PM25",
+      "unit": "мкг/м3",
+      "description": "Зважені тверді частки PM2.5"
+    }
+  },
+  {
+    "model": "common.Indicator",
+    "pk": 4,
+    "fields": {
+      "code": "PM10",
+      "name": "PM10",
+      "indicator_type": "air_quality_pm10",
+      "type_desc": "PM10",
+      "unit": "мкг/м3",
+      "description": "Зважені тверді частки PM10"
+    }
+  },
+  {
+    "model": "common.Indicator",
+    "pk": 5,
+    "fields": {
+      "code": "HUMI",
+      "name": "HUMI",
+      "indicator_type": "humidity",
+      "type_desc": "HUMI",
+      "unit": "%",
+      "description": "Відносна вологість повітря"
+    }
+  },
+  {
+    "model": "common.Indicator",
+    "pk": 6,
+    "fields": {
+      "code": "TEMP",
+      "name": "TEMP",
+      "indicator_type": "temperature",
+      "type_desc": "TEMP",
+      "unit": "°C",
+      "description": "Температура"
+    }
+  },
+  {
+    "model": "common.Indicator",
+    "pk": 7,
+    "fields": {
+      "code": "PRES",
+      "name": "PRES",
+      "indicator_type": "atmospheric_pressure",
+      "type_desc": "PRES",
+      "unit": "гПа",
+      "description": "Тиск"
+    }
+  },
+  {
+    "model": "common.Indicator",
+    "pk": 8,
+    "fields": {
+      "code": "CO",
+      "name": "CO",
+      "indicator_type": "air_quality_co",
+      "type_desc": "CO",
+      "unit": "мкг/м3",
+      "description": "Моноксид вуглецю"
+    }
+  },
+  {
+    "model": "common.Indicator",
+    "pk": 9,
+    "fields": {
+      "code": "SO2",
+      "name": "SO2",
+      "indicator_type": "air_quality_so2",
+      "type_desc": "SO2",
+      "unit": "мкг/м3",
+      "description": "Діоксид сірки"
+    }
+  },
+  {
+    "model": "common.Indicator",
+    "pk": 10,
+    "fields": {
+      "code": "NO2",
+      "name": "NO2",
+      "indicator_type": "air_quality_no2",
+      "type_desc": "NO2",
+      "unit": "мкг/м3",
+      "description": "Діоксид азоту"
+    }
+  },
+  {
+    "model": "common.Indicator",
+    "pk": 11,
+    "fields": {
+      "code": "FORM",
+      "name": "FORM",
+      "indicator_type": "air_quality_formaldehyde",
+      "type_desc": "FORM",
+      "unit": "мкг/м3",
+      "description": "Formaldehyde"
+    }
+  },
+  {
+    "model": "common.Indicator",
+    "pk": 12,
+    "fields": {
+      "code": "WD",
+      "name": "WD",
+      "indicator_type": "air_quality_wind_dir",
+      "type_desc": "WD",
+      "unit": "град.",
+      "description": "Напрямок"
+    }
+  },
+  {
+    "model": "common.Indicator",
+    "pk": 13,
+    "fields": {
+      "code": "WV",
+      "name": "WV",
+      "indicator_type": "air_quality_wind_spd",
+      "type_desc": "WV",
+      "unit": "м/с",
+      "description": "Швидкість"
+    }
+  },
+  {
+    "model": "common.Indicator",
+    "pk": 14,
+    "fields": {
+      "code": "TSP",
+      "name": "TSP",
+      "indicator_type": "air_quality_tsp",
+      "type_desc": "TSP",
+      "unit": "мкг/м3",
+      "description": "Загальні зважені тверді частки"
+    }
+  },
+  {
+    "model": "common.Indicator",
+    "pk": 15,
+    "fields": {
+      "code": "AEDR",
+      "name": "AEDR",
+      "indicator_type": "air_quality_aedr",
+      "type_desc": "AEDR",
+      "unit": "мкЗв/год",
+      "description": "Потужність а.е. дози випромінювання"
+    }
+  },
+  {
+    "model": "common.Indicator",
+    "pk": 16,
+    "fields": {
+      "code": "O3",
+      "name": "O3",
+      "indicator_type": "air_quality_o3",
+      "type_desc": "O3",
+      "unit": "мкг/м3",
+      "description": "Озон"
+    }
+  },
+  {
+    "model": "common.Indicator",
+    "pk": 17,
+    "fields": {
+      "code": "PM04",
+      "name": "PM04",
+      "indicator_type": "air_quality_pm04",
+      "type_desc": "PM04",
+      "unit": "мкг/м3",
+      "description": "Зважені тверді частки PM4"
+    }
+  }
+]

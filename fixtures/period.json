@@ -1,0 +1,42 @@
+[
+  {
+    "model": "common.TimePeriod",
+    "pk": 1,
+    "fields": {
+      "code": "minute",
+      "name": "Хвилина"
+    }
+  },
+  {
+    "model": "common.TimePeriod",
+    "pk": 2,
+    "fields": {
+      "code": "hour",
+      "name": "Година"
+    }
+  },
+  {
+    "model": "common.TimePeriod",
+    "pk": 3,
+    "fields": {
+      "code": "day",
+      "name": "День"
+    }
+  },
+  {
+    "model": "common.TimePeriod",
+    "pk": 4,
+    "fields": {
+      "code": "month",
+      "name": "Місяць"
+    }
+  },
+  {
+    "model": "common.TimePeriod",
+    "pk": 5,
+    "fields": {
+      "code": "year",
+      "name": "Рік"
+    }
+  }
+]

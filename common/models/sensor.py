@@ -12,6 +12,7 @@ class SensorType(models.Model):
 class Sensor(models.Model):
     sensor_id = models.CharField(max_length=100, unique=True, verbose_name="Унікальний ідентифікатор")
     sensor_type = models.ForeignKey(SensorType, on_delete=models.CASCADE, verbose_name="Тип")
+    address = models.CharField(max_length=100, blank=True, default="")
 
     class Meta:
         db_table = "sensor"

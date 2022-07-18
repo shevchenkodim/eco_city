@@ -4,7 +4,8 @@
     "pk": 1,
     "fields": {
       "sensor_id": "1",
-      "sensor_type_id": 1
+      "sensor_type_id": 1,
+      "address": "Харківське шосе 7/1"
     }
   },
   {
@@ -12,7 +13,8 @@
     "pk": 2,
     "fields": {
       "sensor_id": "2",
-      "sensor_type_id": 1
+      "sensor_type_id": 1,
+      "address": "Вербицького 26"
     }
   },
   {
@@ -20,7 +22,8 @@
     "pk": 3,
     "fields": {
       "sensor_id": "3",
-      "sensor_type_id": 1
+      "sensor_type_id": 1,
+      "address": "Проспект Правди, 64Г"
     }
   },
   {
@@ -28,7 +31,8 @@
     "pk": 4,
     "fields": {
       "sensor_id": "4",
-      "sensor_type_id": 1
+      "sensor_type_id": 1,
+      "address": "Щусєва, 20"
     }
   },
   {
@@ -36,7 +40,8 @@
     "pk": 5,
     "fields": {
       "sensor_id": "5",
-      "sensor_type_id": 1
+      "sensor_type_id": 1,
+      "address": "Турівська, 28"
     }
   }
 ]
